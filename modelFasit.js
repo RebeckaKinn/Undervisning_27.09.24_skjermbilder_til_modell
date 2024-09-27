@@ -1,5 +1,6 @@
 const model = {
     app:{
+        app: document.getElementById('app'),
         loggedInUserID: null,
         pages: ["logIn", "createUser", "mainPage", "weather", "myAnimals", "chosenAnimalType", "addAnimal", "addActivity", "activities", "profile"],
         currentPage: null
